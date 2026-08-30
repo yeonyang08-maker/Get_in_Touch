@@ -84,7 +84,7 @@ footer {
     📱 WhatsApp
   </a>
 
-  <a class="button instagram" href="https://www.instagram.com/diver_lala/" target="_blank">
+  <a class="button instagram" href="https://www.instagram.com/diver_lala" target="_blank">
     📸 Instagram
   </a>
 
