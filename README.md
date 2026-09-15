@@ -1,178 +1,163 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dive In with Lala 🐠🤿</title>
 
-  <title>Dive In with Lala 🐠🤿</title>
+<style>
+* {
+  box-sizing: border-box;
+}
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
 
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #ffffff;
-      color: #111111;
-      margin: 0;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 40px 20px 100px;
-    }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #111;
+  min-height: 100vh;
 
-    h1 {
-      font-size: 1.9rem;
-      font-weight: 600;
-      letter-spacing: -0.5px;
-      text-align: center;
-      margin: 0 0 32px;
-    }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-    .buttons {
-      width: 100%;
-      max-width: 250px;
-    }
+  padding: 30px 20px;
+}
 
-    .button {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      min-height: 50px;
-      margin: 8px 0;
-      padding: 14px 16px;
-      border-radius: 12px;
-      font-size: 16px;
-      font-weight: 600;
-      text-decoration: none;
-      transition: transform 0.15s ease, opacity 0.2s ease;
-    }
+.container {
+  width: 100%;
+  max-width: 320px;
+  text-align: center;
+}
 
-    .button:hover {
-      transform: translateY(-2px);
-      opacity: 0.9;
-    }
+h1 {
+  margin: 0 0 30px;
+  font-size: 28px;
+  font-weight: 600;
+}
 
-    .kakao {
-      background-color: #FEE500;
-      color: #3C1E1E;
-    }
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    .line {
-      background-color: #00B900;
-      color: #ffffff;
-    }
+  width: 100%;
+  height: 52px;
 
-    .whatsapp {
-      background-color: #25D366;
-      color: #ffffff;
-    }
+  margin: 10px 0;
 
-    .instagram {
-      background: linear-gradient(
-        45deg,
-        #feda75,
-        #fa7e1e,
-        #d62976,
-        #962fbf,
-        #4f5bd5
-      );
-      color: #ffffff;
-    }
+  border-radius: 12px;
 
-    .website {
-      background-color: #0077B6;
-      color: #ffffff;
-    }
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
 
-    .email {
-      background-color: #333333;
-      color: #ffffff;
-    }
+  transition: opacity 0.2s ease, transform 0.15s ease;
+}
 
-    footer {
-      position: fixed;
-      bottom: 25px;
-      left: 0;
-      width: 100%;
-      text-align: center;
-      font-size: 13px;
-      color: #999999;
-    }
-  </style>
+.button:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
 
+.kakao {
+  background: #FEE500;
+  color: #3C1E1E;
+}
+
+.line {
+  background: #00B900;
+  color: #fff;
+}
+
+.whatsapp {
+  background: #25D366;
+  color: #fff;
+}
+
+.instagram {
+  background: linear-gradient(
+    45deg,
+    #feda75,
+    #fa7e1e,
+    #d62976,
+    #962fbf,
+    #4f5bd5
+  );
+  color: #fff;
+}
+
+.website {
+  background: #0077B6;
+  color: #fff;
+}
+
+.email {
+  background: #333;
+  color: #fff;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 13px;
+  color: #999;
+}
+</style>
 </head>
 
 <body>
 
-  <h1>Dive In with Lala 🐠🤿</h1>
+<div class="container">
 
-  <div class="buttons">
+<h1>Dive In with Lala 🐠🤿</h1>
 
-```
-<a
-  class="button kakao"
-  href="https://open.kakao.com/me/diverlala"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  💬 KakaoTalk
+<a class="button kakao"
+href="https://open.kakao.com/me/diverlala"
+target="_blank">
+💬 KakaoTalk
 </a>
 
-<a
-  class="button line"
-  href="https://line.me/ti/p/T9-h9V2uUB"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  💚 LINE
+<a class="button line"
+href="https://line.me/ti/p/T9-h9V2uUB"
+target="_blank">
+💚 LINE
 </a>
 
-<a
-  class="button whatsapp"
-  href="https://wa.link/t2xwgj"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  📱 WhatsApp
+<a class="button whatsapp"
+href="https://wa.link/t2xwgj"
+target="_blank">
+📱 WhatsApp
 </a>
 
-<a
-  class="button instagram"
-  href="https://www.instagram.com/laladive_phuket"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  📸 Instagram
+<a class="button instagram"
+href="https://www.instagram.com/laladive_phuket"
+target="_blank">
+📸 Instagram
 </a>
 
-<a
-  class="button website"
-  href="https://laladivephuket.com"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  🌐 LALA DIVE Website
+<a class="button website"
+href="https://laladivephuket.com"
+target="_blank">
+🌐 LALA DIVE Website
 </a>
 
-<a
-  class="button email"
-  href="mailto:yeonyang08@gmail.com"
->
-  ✉️ Send an Email
+<a class="button email"
+href="mailto:yeonyang08@gmail.com">
+✉️ Send an Email
 </a>
-```
 
-  </div>
+<footer>
+© 2025 LALA KIM 🐬
+</footer>
 
-  <footer>
-    © 2025 LALA KIM 🐬
-  </footer>
+</div>
 
 </body>
 </html>
