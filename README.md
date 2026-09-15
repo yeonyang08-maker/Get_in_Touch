@@ -115,7 +115,7 @@ footer {
 
 <div class="container">
 
-<h1>Dive In with Lala 🐠🤿</h1>
+<h1> LALA DIVE in Phuket 🤿</h1>
 
 <a class="button kakao"
 href="https://open.kakao.com/me/diverlala"
