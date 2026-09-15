@@ -148,7 +148,7 @@ target="_blank">
 </a>
 
 <a class="button email"
-href="mailto:yeonyang08@gmail.com">
+href="mailto:diverlala560786@gmail.com">
 ✉️ Send an Email
 </a>
 
